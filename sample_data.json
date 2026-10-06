@@ -1,0 +1,132 @@
+{
+  "enquiries": [
+    {
+      "id": 217,
+      "customerName": "sajdfsfs",
+      "customerEmail": "adsdf@asfl.com",
+      "contactDetails": "2222222222",
+      "companyName": "asdas",
+      "source": "PHONE",
+      "category": "SERVICE",
+      "expectedBudget": 3213.0,
+      "expectedTimeline": "2026-09-22T06:30:00.000Z",
+      "description": "",
+      "status": "PENDING",
+      "createdAt": "2026-09-04T12:15:29.200Z",
+      "updatedAt": "2026-09-04T12:15:34.376Z",
+      "feedback": {
+        "outcome": "PENDING",
+        "satisfaction": 0,
+        "reason": null,
+        "comment": "",
+        "willReturn": true
+      },
+      "followups": [
+        {
+          "note": "Follow up 2",
+          "status": "PENDING",
+          "nextFollowUpDate": "2026-09-05T18:30:00Z",
+          "createdAt": "2026-09-04T06:46:11.555Z"
+        },
+        {
+          "note": "follow up 1",
+          "status": "PENDING",
+          "nextFollowUpDate": "2026-09-04T18:30:00Z",
+          "createdAt": "2026-09-04T06:46:02.579Z"
+        }
+      ],
+      "attachments": null,
+      "companyAddress": "sadasd",
+      "idType": "GSTIN",
+      "idValue": "AZYPP6260E1ZX",
+      "countryCode": "+44",
+      "quotations": [
+        {
+          "id": 409,
+          "offerNumber": "BSGP/MF/052/2026-27",
+          "dateOfSubmission": "2026-09-05T00:00:00.000Z",
+          "kindAttention": "Tushar Sharma",
+          "mobile": "9870663306",
+          "billToName": "Comp 1",
+          "grandTotal": 753.00,
+          "status": "Approved",
+          "rejectionReason": null,
+          "enquiryId": 217,
+          "createdAt": "2026-09-05T15:26:17.877Z",
+          "updatedAt": "2026-09-05T15:39:01.876Z",
+          "quotationType": 1,
+          "isSentToAdmin": true,
+          "sentToAdminAt": "2026-09-05T15:26:17.877Z",
+          "fields": {
+            "selectedOfferType": "MF",
+            "offerNumber": "BSGP/MF/052/2026-27",
+            "dateOfSubmission": "2026-09-05T00:00:00",
+            "metaflexContactPerson": "Test Sales Executive",
+            "metaflexContactNumber": "9897666200",
+            "gstin": "09ASLPG9695C2Z7",
+            "kindAttention": "Tushar Sharma",
+            "mobile": "9870663306",
+            "billToName": "Comp 1",
+            "billToAddress": "S-26 Sanjay Nagar Rajpur Chungi, Agra",
+            "billToDistt": "",
+            "billToIdType": "GSTIN",
+            "billToGstin": "",
+            "billToPan": "",
+            "shipToIdType": "GSTIN",
+            "shipToGstin": "",
+            "shipToPan": "",
+            "shipToName": "Comp 1",
+            "shipToAddress": "S-26 Sanjay Nagar Rajpur Chungi, Agra",
+            "shipToDistt": "",
+            "items": [
+              {
+                "description": "<p>asda</p>",
+                "qty": 1,
+                "unitPrice": 622,
+                "hsmCode": "",
+                "basicAmount": 622,
+                "gstPercent": 18,
+                "gstAmount": 112,
+                "totalAmountWithGst": 734
+              }
+            ],
+            "termsAndConditions": {
+              "paymentTerms": "50% Advance along with PO & Balance 50% amount against PI before dispatch.",
+              "taxes": "Taxes : GST @ 18% on Basic / Instalation & Freight.",
+              "delivery": "Delivery: 35 - 40 Days for Dock Products form the date of door book & drawings approval. ( This Period Can be Extended in certain circumtsances ).",
+              "installation": "Installation : 4000 Per Door.",
+              "freight": "Freight : On To Pay Basis.",
+              "unloading": "Unloading of materials at customer site,charges to customer account.",
+              "civilWork": "All civil work are in customer scope.",
+              "cancellation": "Once order placed cannot be cancelled at any stage.",
+              "demurrage": "Doors if not picked by the customer in the given schedule than extra 2% of the total invoice value will be charged as damarage per week.",
+              "validity": "Offer validity – 1 months from the date of quotation.",
+              "warranty": "Warranty: 12 months from the date of invoice or 12 months from the date of installation whichever is earlier.",
+              "jurisdiction": "Subject to Mathura Jurisdiction.",
+              "disclaimer": "Disclaimer: This quotation does not constitute a legal offer and is not intended for legal enforcement Final terms will be outlined in the formal agreement or purchase order."
+            },
+            "totalBasicAmount": 622,
+            "packingPercent": 2.5,
+            "packingCharges": 16,
+            "totalGstAmount": 115,
+            "grandTotal": 753,
+            "discountType": "amount",
+            "discountValue": 0,
+            "bankDetails": {
+              "accountName": "BS AND GP ASSOCIATES",
+              "accountNumber": "4903009300000848",
+              "ifscCode": "PUNB0490300",
+              "swiftCode": "3214",
+              "bankName": "PUNJAB NATIONAL BANK",
+              "branch": "RAMANRETI VRINDAVAN"
+            },
+            "brochureOption": "default",
+            "includeBrochure": true,
+            "sameAsBillTo": false,
+            "productImageUrls": []
+          }
+        }
+      ]
+    }
+  ]
+}
